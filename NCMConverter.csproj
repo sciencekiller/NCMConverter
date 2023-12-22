@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>NCMConverter</Title>
+    <Authors>Sciencekill</Authors>
+    <Company>Sciencekill</Company>
+    <Description>将NCM文件转为可以直接播放的文件，基于NCMDumpGUI(MIT开源)，没有进行修改，只是改为类库方便使用，因此，不做盈利目的</Description>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+    <PackageReleaseNotes>基本功能</PackageReleaseNotes>
+    <PackageTags>ncm;audio;netease;网易;converter;转换;音乐</PackageTags>
+    <PackageId>ncmconverter</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
